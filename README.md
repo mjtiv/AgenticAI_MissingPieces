@@ -1,5 +1,7 @@
 # Agentic AI: What’s Missing (and How to Fix It)
 
+*Everyone is hyping “Agentic AI.” Here’s what’s actually missing — and how to fix it.*
+
 ## 🚨 The Problem
 Everyone is talking about “Agentic AI.”  
 IBM, OpenAI, Anthropic, xAI, and others are pitching it as the future.  
@@ -33,21 +35,24 @@ This isn’t theory — it’s a roadmap.
 
 ---
 
-## 🛠️ Roadmap
+## 🛠️ Roadmap (Estimated)
+
 **Phase 0 (2–4 weeks):**  
-- Stand up a “Gold Cell” (isolated GPU enclave).  
-- Deploy `.aix verifier` + audit logging.  
-- Run simple use cases (RAG, report generation) end-to-end.  
+- Stand up a “Gold Cell” (isolated GPU enclave with hardened security).  
+- Deploy `.aix verifier` with signed execution + basic audit logging.  
+- Run initial use cases (RAG, report generation) end-to-end inside the enclave.  
 
 **Phase 1 (4–8 weeks):**  
-- Add memory capsules + compliance policy packs (HIPAA/GxP).  
-- Offer per-run attestation proofs.  
-- Publish a CLI for `.aix lint/validate`.  
+- Add **scoped memory capsules** (TTL, trust weights, provenance).  
+- Introduce compliance policy packs (HIPAA, GxP).  
+- Provide **per-run attestation proofs** exportable for audits.  
+- Release a developer CLI for `.aix lint/validate` so teams can pre-check bundles locally.  
 
-**Phase 2 (quarter):**  
-- Multi-region deployment, HA schedulers, burst queues.  
-- Marketplace for signed `.aix packs` (ETL, QC, validation pipelines).  
-- SLAs for **compliance compute**: GPU hour + audit + evidence bundle.  
+**Phase 2 (Quarter):**  
+- Expand to multi-region deployment with HA schedulers and burst queues.  
+- Launch a **marketplace for signed `.aix packs`** (ETL, QC, validation, safety workflows).  
+- Offer **Compliance Compute SLAs**: GPU hour + attestation + evidence bundle.  
+- *(At this stage, if a major partner collaborates — IBM, OpenAI, xAI, Nvidia, or DARPA — rollout accelerates dramatically.)* 
 
 ---
 
@@ -63,12 +68,30 @@ With this, it becomes deployable infrastructure.
 ---
 
 ## 📢 Call to Action
-This roadmap is being released into the **public domain**.  
-No patents, no gatekeeping. If you’re building “Agentic AI” — take this and run.  
+This roadmap is being released into the **public domain** — because without `.aix`-style infrastructure, “Agentic AI” will never scale safely.  
 
-The industry doesn’t need more hype. It needs **execution standards**.  
+No gatekeeping. If you’re building agents, **take this blueprint and run with it**.  
+
+⚠️ **Note:** Core patents on `.aix` usage and execution have been filed.  
+This repo is a **free roadmap**, not a waiver of IP rights.  
+
+The industry doesn’t need more hype. It needs **execution standards** that regulators, enterprises, and engineers can trust.  
+
+🤝 **Partnerships:** `.aix` is actively seeking collaborators and strategic partners to help build, test, and deploy this infrastructure at scale. If you’re IBM, OpenAI, xAI, Nvidia, DARPA — or any group serious about safe agentic AI — let’s talk.
 
 ---
 
-## ⚡ License
-MIT License. Free to use, free to adapt. Just don’t call report-writing “agentic.” 😉
+## ⚡ License (Roadmap Only)
+MIT License. Free to use, free to adapt.  
+Just don’t call report-writing “agentic.” 😉  
+
+This repo is a **roadmap**, released openly in the hope that someone will pick it up and build.  
+The first group to execute this correctly could become the **market leader** in true Agentic AI infrastructure.  
+
+⚠️ Note: This license applies only to the **roadmap content in this repository**.  
+`.aix` itself has **core patents filed** on usage and execution — those rights remain reserved.  
+This repo = free roadmap. `.aix` = protected infrastructure.
+
+---
+
+*Agents don’t need more demos — they need standards. `.aix` shows the path forward.*
