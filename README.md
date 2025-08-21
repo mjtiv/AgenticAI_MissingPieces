@@ -94,4 +94,9 @@ This repo = free roadmap. `.aix` = protected infrastructure.
 
 ---
 
+🔗 **Reference:** Original `.aix` GitHub repository  
+https://github.com/mjtiv/aix-file-format
+
+---
+
 *Agents don’t need more demos — they need standards. `.aix` shows the path forward.*
