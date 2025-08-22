@@ -100,10 +100,11 @@ No gatekeeping. If you’re building agents, **take this blueprint and run with 
 
 ⚠️ **Note:** Core patents on `.aix` usage and execution have been filed — to prevent enclosure, not to block adoption.  
 
-This project wasn’t born out of luxury or hype.  
-The inventor was **backed into a corner** by a broken system and did the only thing left —  
+This project wasn’t born out of hype or luxury.  
+The inventor was **backed into a corner by a broken system** and did the only thing left —  
 **invent and patent his way out.**  
 
+Yes, the patents are real. And yes, the goal is also practical: to create value, attract partners, and fund what comes next.  
 This repo is a **free roadmap**, not a waiver of IP rights.
 
 The industry doesn’t need more hype. It needs **execution standards** that regulators, enterprises, and engineers can trust.  
